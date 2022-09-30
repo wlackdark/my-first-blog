@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
+
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -21,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-cv^ljii#a$*azvdb3uvk2w#m75*zs)z5ytnhqxsfe@vw)nu^l%'
+SECRET_KEY = 'django-insecure-^#-p2e8h#6u!$8+&_q@a$%e#%=q983pf7u@_q0s!*qiwaw4-xq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -105,7 +106,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'es-Co'
+LANGUAGE_CODE = 'es-CO'
 
 TIME_ZONE = 'America/Bogota'
 
@@ -120,6 +121,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
 STATIC_ROOT = BASE_DIR / 'static'
 
 # Default primary key field type
